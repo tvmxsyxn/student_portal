@@ -1,9 +1,10 @@
 """Simple Student Portal Application"""
 
 def main():
-    print("Student Portal System")
+    print("Welcome to Student Portal System")
+
+def login(username):
+    print(f"User {username} logged in.")
 
 if __name__ == "__main__":
     main()
-    # Инициализируем Git репозиторий в текущей папке
-git init
